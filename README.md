@@ -1,11 +1,3 @@
-<p align="center">
-  <a href="https://aluiziodeveloper.com.br/">
-    <img alt="Aluizio Developer" src="https://aluiziodeveloper.com.br/assets/img/icon.png" width="200" />
-  </a>
-</p>
-<h2 align="center">
-Informação sobre tecnologia, dicas, tutoriais, mini-cursos e muito mais.
-</h2>
 
 ## API Restful com Node.js, Express, Typescript, etc
 
@@ -14,8 +6,6 @@ Seja muito bem-vindo ao curso projeto prático de desenvolvimento de API Restful
 Ao longo dessa jornada construiremos uma aplicação backend para gestão de vendas com funcionalidades para criação de cadastro de produtos, cadastro de clientes, pedidos de compras e uma completa gestão de usuários da aplicação, com autenticação via Token JWT, recuperação de senha por email, atualização de perfil, atualização de avatar, e muito mais.
 
 Através do TypeORM implementaremos Entidades e Repositórios para cada recurso a ser consumido na API.
-
-Acesse a [página do curso na Udemy](https://www.udemy.com/course/api-restful-de-vendas/?referralCode=6DDEF85A747CA5CC4135) para conferir o conteúdo.
 
 ## Repositório inicial
 
@@ -45,10 +35,6 @@ Após essa instalação execute a aplicação com o comando `yarn dev` ou `npm r
 
 ## Redes Sociais
 
-[Site Aluizio Developer](https://aluiziodeveloper.com.br)
+[LinkedIn](https://www.linkedin.com/in/antonio-alexandre-cordeiro-santos-436a2020/)
 
-[YouTube](https://www.youtube.com/jorgealuizio)
-
-[Servidor no Discord](https://discord.gg/3J87BMz5fD)
-
-[LinkedIn](https://www.linkedin.com/in/jorgealuizio/)
+[Facebook](https://www.facebook.com/alexandre.cordeiro.75)
