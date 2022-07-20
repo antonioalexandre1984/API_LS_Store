@@ -19,12 +19,11 @@ export default function isAuthenticated(
   if (!authHeader) {
     throw new AppError('JWT token is missing', 401);
   }
-
+  // Bearer token.split(' ')[1]
   const [, token] = authHeader.split(' ');
 
   try {
     const decodedToken = verify(token, authConfig.jwt.secret);
-
     const { sub } = decodedToken as ITokenPayload;
 
     request.user = {
