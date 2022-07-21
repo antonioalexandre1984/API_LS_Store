@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-console */
 /* eslint-disable prettier/prettier */
 import 'reflect-metadata';
 import express, { NextFunction, Request, Response } from 'express';
@@ -27,6 +29,7 @@ app.use(
         message: error.message,
       });
     }
+    console.log(error)
     return res.status(500).json({
       status: 'error',
       message: 'Internal server error',

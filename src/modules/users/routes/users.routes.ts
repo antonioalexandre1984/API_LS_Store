@@ -10,7 +10,7 @@ const usersRouter = Router();
 const userController = new UsersController();
 const usersAvatarController = new UsersAvatarController();
 
-const uploads = multer(uploadConfig);
+const upload = multer(uploadConfig);
 
 usersRouter.get('/', isAuthenticated, userController.index);
 usersRouter.post(
@@ -27,7 +27,7 @@ usersRouter.post(
 usersRouter.patch(
   '/avatar',
   isAuthenticated,
-  uploads.single('avatar'),
+  upload.single('avatar'),
   usersAvatarController.update,
 );
 
