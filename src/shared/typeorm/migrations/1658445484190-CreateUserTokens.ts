@@ -34,16 +34,16 @@ export class CreateUserTokens1637714203996 implements MigrationInterface {
             default: 'now()',
           },
         ],
-        /*    foreignKeys: [
-             {
-               name: 'TokenUser',
-               referencedTableName: 'users',
-               referencedColumnNames: ['id'],
-               columnNames: ['user_id'],
-               onDelete: 'CASCADE',
-               onUpdate: 'CASCADE',
-             },
-           ], */
+        foreignKeys: [
+          {
+            name: 'TokenUser',
+            referencedTableName: 'users',
+            referencedColumnNames: ['id'],
+            columnNames: ['user_id'],
+            onDelete: 'CASCADE',
+            onUpdate: 'CASCADE',
+          },
+        ],
       }),
     );
   }
